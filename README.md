@@ -1,2 +1,2 @@
 #usersmagic
-The ultimate way of testing
+Feel your customers more than ever

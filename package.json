@@ -1,7 +1,7 @@
 {
   "name": "usersmagic",
   "version": "2.0.0",
-  "description": "#usersmagic\n The ultimate way of testing",
+  "description": "#usersmagic\nFeel your customers more than ever\nhttps://admin.usersmagic.com",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
