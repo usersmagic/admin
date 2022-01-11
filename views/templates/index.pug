@@ -1,0 +1,10 @@
+extends ../partials/header
+block main
+  .all-content-inner-wrapper
+    a.general-small-button(style="margin-left: auto" href="/templates/create" method="POST") Create New
+    .templates-wrapper
+      each template in templates
+        .each-template-wrapper
+          a.each-template-title(href="/templates/edit?id=" + template._id.toString())= template.name
+          a.each-template-delete-button(href="/templates/delete?id=" + template._id.toString() onclick="return confirm('Are you sure you want to delete this template?')") 
+            i.fas.fa-trash-alt
